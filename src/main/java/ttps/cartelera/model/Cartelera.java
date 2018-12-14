@@ -1,5 +1,6 @@
 package ttps.cartelera.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
@@ -23,17 +24,20 @@ public class Cartelera {
     @Column(name = "fecha_creacion")
     private Date fechaCreacion;
 
-    @ManyToMany
+    @JsonIgnore
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "interesado_cartelera",
             joinColumns = @JoinColumn(name = "cartelera_id", referencedColumnName = "cartelera_id"),
             inverseJoinColumns = @JoinColumn(name = "usuario_id", referencedColumnName = "usuario_id"))
     private List<Alumno> alumnosInteresados;
 
+    @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "cartelera_id")
     private List<Publicacion> publicaciones;
 
+    @JsonIgnore
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
             name = "publicador_cartelera",
