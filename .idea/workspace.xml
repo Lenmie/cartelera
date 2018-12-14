@@ -7,150 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1d7fdb0-29ec-4bea-a95a-a0c174fa2100" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/config/AppConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/config/PersistenceConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/config/SpringWebApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/controller/CarteleraRestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/controller/UsuarioRestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/hibernate/ComentarioDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/hibernate/GenericDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/hibernate/PublicacionDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/interfaces/CarteleraDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/interfaces/ComentarioDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/interfaces/GenericDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/interfaces/PublicacionDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/dao/interfaces/UsuarioPerfilDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/Administrador.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/Alumno.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/Cartelera.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/Comentario.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/Docente.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/Publicacion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/Publicador.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/classes/ttps/cartelera/model/UsuarioPerfil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/byte-buddy-1.8.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/classmate-1.3.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/dom4j-2.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/hibernate-core-5.3.7.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/jackson-annotations-2.9.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/jackson-core-2.9.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/jackson-databind-2.9.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/jandex-2.0.5.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/javassist-3.23.1-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/javax.activation-api-1.2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/javax.persistence-api-2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/javax.servlet-api-4.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/mysql-connector-java-5.1.47.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-aop-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-beans-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-context-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-core-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-expression-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-jcl-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-jdbc-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-orm-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-tx-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-web-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/lib/spring-webmvc-5.1.2.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/config/AppConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/config/PersistenceConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/config/SpringWebApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/controller/CarteleraRestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/controller/UsuarioRestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/hibernate/ComentarioDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/hibernate/GenericDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/hibernate/PublicacionDAOHibernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/interfaces/CarteleraDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/interfaces/ComentarioDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/interfaces/GenericDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/interfaces/PublicacionDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/dao/interfaces/UsuarioPerfilDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/Administrador.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/Alumno.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/Cartelera.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/Comentario.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/Docente.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/Publicacion.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/Publicador.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/ttps/cartelera/model/UsuarioPerfil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cartelera_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cartelera_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cartelera.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/config/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/config/PersistenceConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/config/SpringWebApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/ComentarioDAOHibernateJPA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/GenericDAOHibernateJPA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/PublicacionDAOHibernateJPA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/CarteleraDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/ComentarioDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/GenericDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/PublicacionDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/UsuarioPerfilDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Administrador.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Alumno.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Cartelera.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Comentario.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Docente.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Publicacion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Publicador.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/UsuarioPerfil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cartelera/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/CarteleraDAO.java" afterPath="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/CarteleraDAO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -166,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CarteleraDAOHibernateJPA.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CarteleraDAOHibernateJPA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="68" />
+            <state relative-caret-position="383">
+              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -179,8 +39,8 @@
       <file leaf-file-name="GenericDAOHibernateJPA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/GenericDAOHibernateJPA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="-8">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,11 +51,33 @@
       <file leaf-file-name="UsuarioRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="33">
+              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarteleraRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="48" column="75" lean-forward="false" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsuarioPerfil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/model/UsuarioPerfil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,9 +85,14 @@
       <file leaf-file-name="UsuarioHIbernateJPA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="110">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,30 +100,8 @@
       <file leaf-file-name="ComentarioDAOHibernateJPA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/ComentarioDAOHibernateJPA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarteleraRestController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cartelera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Cartelera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -293,17 +158,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/model/Publicador.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/model/UsuarioPerfil.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/ComentarioDAOHibernateJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/CarteleraDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/ComentarioDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/PublicacionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/UsuarioPerfilDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/PublicacionDAOHibernateJPA.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/EMF.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/GenericDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Administrador.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Alumno.java" />
@@ -315,7 +176,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/model/UsuarioPerfil.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/config/PersistenceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/GenericDAOHibernateJPA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/CarteleraDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java" />
       </list>
     </option>
   </component>
@@ -657,12 +522,12 @@
       <workItem from="1544738028514" duration="2496000" />
       <workItem from="1544740581225" duration="3316000" />
       <workItem from="1544745170256" duration="1295000" />
-      <workItem from="1544793649343" duration="18522000" />
+      <workItem from="1544793649343" duration="21030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67919000" />
+    <option name="totallyTimeSpent" value="70427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="749" extended-state="0" />
@@ -677,7 +542,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45107034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.762997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -685,7 +550,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48929664" sideWeight="0.49706313" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52905196" sideWeight="0.49706313" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2349486" sideWeight="0.66412216" order="0" side_tool="false" content_ui="combo" />
@@ -708,21 +573,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -824,14 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/CarteleraDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/ComentarioDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -853,16 +696,6 @@
         <state relative-caret-position="102">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/GenericDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,14 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/model/UsuarioPerfil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/config/SpringWebApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -962,24 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/model/Cartelera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -988,26 +795,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/ComentarioDAOHibernateJPA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/ComentarioDAOHibernateJPA.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/model/UsuarioPerfil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="-51">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/UsuarioHIbernateJPA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/UsuarioRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/GenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/interfaces/CarteleraDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/GenericDAOHibernateJPA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="-8">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1016,11 +864,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/controller/CarteleraRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="217">
+          <caret line="48" column="75" lean-forward="false" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ttps/cartelera/dao/hibernate/CarteleraDAOHibernateJPA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

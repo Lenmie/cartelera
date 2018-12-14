@@ -29,12 +29,8 @@ public class CarteleraRestController {
         if (verificar.equals(token)) {
             UsuarioPerfil usuario = usuarioPerfilDAO.recuperar(Long.valueOf(1));
             if(usuario.getClass() == Administrador.class){
-                //if(!carteleraDao.existe(cartelera.getId())){
-                    carteleraDao.persistir(cartelera);
-                    return new ResponseEntity<Void>(HttpStatus.CREATED);
-                //}else{
-                  //  return new ResponseEntity<Void>(HttpStatus.CONFLICT);
-                //}
+                carteleraDao.persistir(cartelera);
+                return new ResponseEntity<Void>(HttpStatus.CREATED);
             }else{
                 return new ResponseEntity<Void>(HttpStatus.UNAUTHORIZED);
             }
@@ -43,9 +39,9 @@ public class CarteleraRestController {
         }
     }
 
-    //preguntar como acceder a sesion para obtener el usuario
+
     //arreglar la query recuperarCarteleras
-/*
+
     @RequestMapping(value = "/carteleras", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Cartelera>> listarCarteleras(@RequestHeader("token") String token, @RequestHeader("id") String id){
         String res = id + "12345";
@@ -60,5 +56,5 @@ public class CarteleraRestController {
        }
 
     }
-   */
+
 }

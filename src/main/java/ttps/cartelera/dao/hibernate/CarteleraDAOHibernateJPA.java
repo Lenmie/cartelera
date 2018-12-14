@@ -17,7 +17,10 @@ public class CarteleraDAOHibernateJPA extends GenericDAOHibernateJPA<Cartelera> 
         super(Cartelera.class);
     }
 
-    //metodo test, borrar
+
+    /*
+    metodo test, borrar
+
     public List<Cartelera> recuperarCarteleras(){
 
         Cartelera cartelera1 = new Cartelera();
@@ -32,18 +35,17 @@ public class CarteleraDAOHibernateJPA extends GenericDAOHibernateJPA<Cartelera> 
 
         return carteleras;
     }
-
+    */
 
     //arreglar!
-    /*
     public List<Cartelera> recuperarCarteleras(){
-        Query consulta = EMF.getEMF().createEntityManager().createQuery(
-                "select cartelera.id, cartelera.titulo, cartelera.descripcion, cartelera.fecha_creacion from cartelera order by cartelera.titulo");
+
+        Query consulta = this.getEntityManager().createQuery(
+                "select c from Cartelera c order by c.titulo");
         List<Cartelera> resultado = (List<Cartelera>)consulta.getResultList();
         return resultado;
     }
-    */
-    //metodo test
+
 
 
 }

@@ -19,12 +19,12 @@ import java.security.acl.LastOwnerException;
 public class UsuarioRestController {
 
     @Autowired
-    UsuarioPerfilDAO usuarioPerfilDAO = new UsuarioHIbernateJPA();
+    UsuarioPerfilDAO usuarioPerfilDAO;
 
     @RequestMapping(value = "/autenticacion",method = RequestMethod.POST)
     public ResponseEntity<Void> autenticarUsuario(String id, String password){
-        if(usuarioPerfilDAO.existe(Long.valueOf(id))){
-            UsuarioPerfil usuario =  usuarioPerfilDAO.recuperar(Long.valueOf(id));
+        UsuarioPerfil usuario =  usuarioPerfilDAO.recuperar(Long.valueOf(id));
+        if (usuario != null){
             if (usuario.getPassword().equals(password)){
                 HttpHeaders headers = new HttpHeaders();
                 String usuario_id = String.valueOf(usuario.getId());
@@ -39,14 +39,12 @@ public class UsuarioRestController {
         }
     }
 
+    //solo crea admins, implementar logica para crear distintos tipos de usuario
     @RequestMapping(value = "/usuarios", method = RequestMethod.POST)
-    public ResponseEntity<Void> crearUsuario(@RequestBody UsuarioPerfil usuario){
-        if(usuarioPerfilDAO.existe(usuario.getId())){
-            return new ResponseEntity<Void>(HttpStatus.CONFLICT);
-        }else{
-            usuarioPerfilDAO.persistir(usuario);
-            return new ResponseEntity<Void>(HttpStatus.CREATED);
-        }
+    public ResponseEntity<Void> crearUsuario(@RequestBody Administrador usuario){
+        usuarioPerfilDAO.persistir(usuario);
+        return new ResponseEntity<Void>(HttpStatus.CREATED);
+
     }
 
     //falta hacer un if por si id es nan
