@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cartelera:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cartelera.war">
+      <element id="artifact" artifact-name="cartelera:war exploded" />
+    </root>
+  </artifact>
+</component>
