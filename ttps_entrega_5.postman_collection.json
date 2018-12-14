@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "07e4cb2a-b56f-4371-9234-2c9cbdda6514",
+		"name": "ttps_entrega_5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/autenticacion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1337",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "lalala1234",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/autenticacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"autenticacion"
+					]
+				},
+				"description": "autenticacion de usuario, tirar el request de crear usuario primero"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/carteleras?id=12345",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "133712345",
+						"type": "text"
+					},
+					{
+						"key": "id",
+						"value": "1337",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/carteleras?id=12345",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carteleras"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "12345"
+						}
+					]
+				},
+				"description": "retornar carteleras, si no se corre el request crear cartelera, va a tirar no content"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cartelera",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "token",
+						"value": "1337123456",
+						"type": "text"
+					},
+					{
+						"key": "id",
+						"value": "1337",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"titulo\": \"cartelera titulo\",\n  \"descripcion\": \"cartelera descripcion\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/cartelera",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cartelera"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/usuarios",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nombreCompleto\" : \"javier\",\n\t\"password\" : \"lalala123\"\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
